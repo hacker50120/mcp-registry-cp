@@ -1,0 +1,52 @@
+{
+  "version": "1.0",
+  "registryVersion": "0.0.2",
+  "servers": [
+    {
+      "id": "atlassian-rovo",
+      "name": "Atlassian Rovo",
+      "description": "Access Jira and Confluence",
+      "vendor": "Atlassian",
+      "sourceUrl": "https://www.npmjs.com/package/@atlassian/mcp-atlassian",
+      "runtime": "node",
+      "package": {
+        "name": "@atlassian/mcp-atlassian",
+        "registry": "npm",
+        "version": "latest"
+      }
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "description": "Access GitHub repos, issues, and PRs",
+      "vendor": "GitHub",
+      "sourceUrl": "https://www.npmjs.com/package/@modelcontextprotocol/server-github",
+      "runtime": "node",
+      "package": {
+        "name": "@modelcontextprotocol/server-github",
+        "registry": "npm",
+        "version": "latest"
+      }
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "Access Figma designs and components",
+      "vendor": "Figma",
+      "sourceUrl": "https://www.npmjs.com/package/figma-developer-mcp",
+      "runtime": "node",
+      "package": {
+        "name": "figma-developer-mcp",
+        "registry": "npm",
+        "version": "latest"
+      }
+    },
+    {
+      "id": "local-test",
+      "name": "Local Test MCP",
+      "description": "Local test server for MCP security validation",
+      "vendor": "Internal",
+      "runtime": "node"
+    }
+  ]
+}
